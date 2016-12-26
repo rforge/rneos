@@ -14,7 +14,7 @@
 
 \usage{
 CreateNeosComm(curlopts = list(httpheader = c(`Content-Type` =
-"text/xml", `User-Agent` = "R"), port = 3332), curlhandle =
+"text/xml", `User-Agent` = "R"), port = 3333), curlhandle =
 getCurlHandle())
 }
 
