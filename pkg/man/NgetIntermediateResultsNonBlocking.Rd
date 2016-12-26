@@ -62,7 +62,7 @@ datc <- paste(paste(readLines(datf), collapse = "\n"), "\n")
 argslist <- list(model = modc, data = datc, commands = "",
 comments = "")
 ## create XML string
-xmls <- CreateXmlString(neosxml = template, cdatalist = argslist)
+xmls <- CreateXmlString(neosxml = tmp, cdatalist = argslist)
 test <- NsubmitJob(xmlstring = xmls, user = "rneos", interface = "",
 id = 0)
 NgetIntermediateResultsNonBlocking(obj = test, convert = TRUE)
