@@ -15,7 +15,8 @@ NsubmitJob(xmlstring, user = "rneos", interface = "",
 \arguments{
   \item{xmlstring}{Character, the xml string according to the solver's
   template and filled withe the user's optimisation data.}    
-  \item{user}{Character, the name of the user}
+  \item{user}{Character, the name of the user; for certain optimizers an
+  email address is required.}
   \item{interface}{Character, the name of the interface.}
   \item{id}{Integer, an identifier for the submitted job.}  
   \item{nc}{Object of class \code{NeosComm}:
