@@ -28,13 +28,16 @@ export(CreateNeosComm,
        NprintQueue,
        NsubmitJob,
        Nversion,
-       Nwelcome)
+       Nwelcome,
+       xml.rpc,
+       XMLRPCServer,
+       rpc.serialize)
 ##
 ## Export of S4-classes
 ##
-exportClasses(NeosComm, NeosAns, NeosXml, NeosJob, NeosOff)
+exportClasses(NeosComm, NeosAns, NeosXml, NeosJob, NeosOff, XMLRPCServer)
 ##
 ## Export of S4-methods
 ##
-exportMethods(show, update)
+exportMethods(show, update, "$")
 

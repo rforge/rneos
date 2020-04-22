@@ -35,9 +35,7 @@ or more conveniently by calling the relevant R API functions.
 }
 
 \references{
-  NEOS API: \url{http://neos-guide.org/content/NEOS-API},\cr
-  Omegahat web site for RCurl: \url{http://www.omegahat.net/RCurl},\cr
-  Omegahat web site for XMLRPC: \url{http://www.omegahat.net/XMLRPC}
+  NEOS API: \url{https://neos-server.org/neos/xml-rpc.html}
 }
 
 \author{

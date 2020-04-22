@@ -18,4 +18,10 @@ setClass("NeosJob", representation(jobnumber = "numeric", password = "character"
 ## Class for NEOS offset 
 ##
 setClass("NeosOff", representation(ans = "character", offset = "integer", jobnumber = "numeric", password = "character", method = "character", call = "call", nc = "NeosComm"))
-
+##
+## Classes related to XMLRPC
+##
+setClass("XMLRPCServer", contains = "character")
+setClass("XMLRPCServerConnection", 
+         representation (curl = "CURLHandle"),
+         contains = "XMLRPCServer")

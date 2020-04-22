@@ -40,9 +40,7 @@ or more conveniently by calling the relevant R API function
 }
 
 \references{
-  NEOS API: \url{http://neos-guide.org/content/NEOS-API},\cr
-  Omegahat web site for RCurl: \url{http://www.omegahat.net/RCurl},\cr
-  Omegahat web site for XMLRPC: \url{http://www.omegahat.net/XMLRPC}
+  NEOS API: \url{https://neos-server.org/neos/xml-rpc.html}
 }
 
 \author{
@@ -52,7 +50,6 @@ or more conveniently by calling the relevant R API function
 \examples{
 showClass("NeosJob")
 \dontrun{
-
 tmp <-NgetSolverTemplate(category = "go", solvername = "ASA",
 inputMethod = "AMPL")
 ## setting path to example model and data file
